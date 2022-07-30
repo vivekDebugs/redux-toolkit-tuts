@@ -1,0 +1,15 @@
+.Badge {
+  margin: 0.25rem 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.value {
+  background-color: brown;
+  color: white;
+  padding: 0 8px;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}

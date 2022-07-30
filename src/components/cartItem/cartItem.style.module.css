@@ -1,0 +1,26 @@
+.CartItem {
+  border: 2px solid lightgray;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantityContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemImage {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.itemName,
+.amount,
+.quantity {
+  font-weight: bold;
+}
